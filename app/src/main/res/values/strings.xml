@@ -4,9 +4,9 @@
     <string name="enter_number_2">Enter Number 2</string>
     <string name="calculate">Calculate</string>
     <string name="calculation_of_two_numbers">Calculation of two numbers!</string>
-    <string name="divide">Divide</string>
-    <string name="multiply">Multiply</string>
-    <string name="subtract">Subtract</string>
-    <string name="add">Add</string>
+    <string name="divide">/</string>
+    <string name="multiply">*</string>
+    <string name="subtract">-</string>
+    <string name="add">+</string>
 
 </resources>

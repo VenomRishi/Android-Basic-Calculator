@@ -23,9 +23,15 @@
         android:hint="@string/enter_number_2"
         android:inputType="number" />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
     <Button
         android:id="@+id/addButton"
-        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
         android:text="@string/add"
@@ -33,7 +39,8 @@
 
     <Button
         android:id="@+id/subtractButtom"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
         android:text="@string/subtract"
@@ -41,7 +48,8 @@
 
     <Button
         android:id="@+id/multiplyButton"
-        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
         android:text="@string/multiply"
@@ -49,11 +57,13 @@
 
     <Button
         android:id="@+id/divideButton"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:layout_marginTop="18dp"
         android:text="@string/divide"
         android:textSize="20sp" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/answerTextView"
